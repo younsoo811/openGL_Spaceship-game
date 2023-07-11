@@ -648,7 +648,7 @@ void FireTimer(int Value){
 		}
 
 		if (big && rx7 > -5.5 &&rx7<5.5 && ry7>-5.5 && ry7 < 5.5 && tz7 < tz6){
-			printf("\n-----------명중-------------\n");
+			printf("\n-----------명중-------------\n"); 
 			score++;
 			fcount--;
 			fire = false;
